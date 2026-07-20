@@ -225,3 +225,39 @@ h4 {
     border: 2px solid rgb(136, 136, 136);
     color: rgb(136, 136, 136);
 }
+
+.inquiry-parent{
+    max-width: 690px;
+    margin: auto;
+    text-align: center;
+    
+}
+.inquiry-message{
+    font-size: 30px;
+    padding-top: 70px;
+    padding-bottom: 0;
+}
+form input , form textarea{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(231, 231, 243);
+    display: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 500px;
+    width: 100%
+    
+}
+.inquiry-form{
+   align-items: center;
+   padding-bottom: 100px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(13, 27, 42);
+
+}
