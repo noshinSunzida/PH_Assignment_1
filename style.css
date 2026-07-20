@@ -25,7 +25,7 @@ ul {
 
 ul li a {
     text-decoration: none;
-    color: rgb(57, 57, 57);
+    color: rgb(87, 87, 87);
 }
 
 .baner-parent{
@@ -58,7 +58,7 @@ h1 {
      
 }
 
-p {
+.baner-content {
     padding-top: 30px;
     margin-bottom: 150px;
     font-size: 21px;
@@ -91,7 +91,7 @@ h2 {
     font-size: 50px;
     font-weight: bold;
     margin-top: 55px ;
-    padding-bottom: 38px;
+    padding-bottom: 45px;
 }
 
 .speaker-parent {
@@ -101,6 +101,39 @@ h2 {
 .speaker-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 32px;
+    
+}
+
+.speaker-speciality {
+    color: rgb(37, 99, 235);
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 12px;
+    
+}
+
+.speaker-position {
+    color: rgb(87, 87, 87);
+    font-size: 13px;
+    padding: 12px 0;
+}
+
+.speaker-card{
+   padding: 20px ;
+}
+
+.speakers{
+    border: 1px solid rgb(209, 205, 205);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h4 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 70px ;
+    
 }
 
